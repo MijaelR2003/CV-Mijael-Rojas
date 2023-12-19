@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.pagina{
+    margin-left: 230px;
+    margin-right: 230px;
+    border: 2px solid black; 
+    border-radius: 30px;
+    /*padding: 20px;*/
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.seccion1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 490px;
+    background-color: rgba(212, 171, 171, 0.452);
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.foto {
+    height: auto;
+    border-radius: 50%;
+    width: 60%; 
+    margin-left: 65px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.perfil{
+    margin-left: 25px;
+    margin-right: 40px;
+}
+
+.educacion{
+    margin-left: 25px;
+    margin-right: 40px;
+}
+
+.contacto{
+    margin-left: 25px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+
+.referencia {
+    display: flex;
+    align-items: center;
+    
+}
+
+.iconos {
+    width: 25px;
+    height: 25px;
+}
+
+.referencia p{
+    margin-left: 10px;
+}
