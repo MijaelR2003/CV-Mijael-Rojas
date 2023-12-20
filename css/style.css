@@ -29,7 +29,7 @@ body {
     border-top-left-radius: 30px;
 }
 
-.foto {
+.image-profile {
     height: auto;
     border-radius: 50%;
     width: 60%;
@@ -38,7 +38,7 @@ body {
     margin-bottom: -20px;
 }
 
-.perfil {
+.profile-description {
     margin-left: 25px;
     margin-right: 30px;
     text-align: justify;
@@ -168,7 +168,7 @@ body {
     padding-left: 20px;
 }
 
-.lista_li2 li{
+.skills li{
     margin-bottom: 5px;
     margin-left: 60px;
     padding-left: 20px;
