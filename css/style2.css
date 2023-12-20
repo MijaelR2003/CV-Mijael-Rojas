@@ -1,21 +1,21 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
 }
 
-.pagina{
+.pagina {
     display: flex;
     flex-direction: row;
     margin-left: 270px;
     margin-right: 270px;
-    border: 2px solid black; 
+    border: 2px solid black;
     border-radius: 30px;
     /*padding: 20px;*/
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-.seccion1{
+.seccion1 {
     display: flex;
     flex-direction: column;
     width: 350px;
@@ -27,23 +27,23 @@ body{
 .foto {
     height: auto;
     border-radius: 50%;
-    width: 60%; 
+    width: 60%;
     margin-left: 65px;
-    margin-top: 35px;
+    margin-top: 40px;
     margin-bottom: 20px;
 }
 
-.perfil{
+.perfil {
     margin-left: 25px;
     margin-right: 40px;
 }
 
-.educacion{
+.educacion {
     margin-left: 25px;
     margin-right: 40px;
 }
 
-.contacto{
+.contacto {
     margin-left: 25px;
     margin-right: 40px;
     margin-bottom: 30px;
@@ -52,7 +52,7 @@ body{
 .referencia {
     display: flex;
     align-items: center;
-    
+
 }
 
 .iconos {
@@ -60,17 +60,119 @@ body{
     height: 25px;
 }
 
-.referencia p{
+.referencia p {
     margin-left: 10px;
 }
 
 /*------------*/
 
-.seccion2{
+.seccion2 {
     display: flex;
     flex-direction: column;
     width: 500px;
     background-color: rgba(36, 27, 27, 0.452);
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
+}
+
+.nombre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#apellido{
+    margin-bottom: -15px;
+}
+
+.informacion{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-right: 40px;
+    margin-top: -10px;
+}
+
+.informacion h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.fecha_nac{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -30px;
+}
+
+.fecha_nac h3{
+    margin-right: 7px;
+}
+
+.lugar_nac{
+    display: flex;
+    flex-direction: row;
+}
+
+.lugar_nac h3{
+    margin-right: 7px;
+}
+
+.habilidades{
+    margin-left: 25px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.habilidades h2{
+    margin-top: 10px;
+    margin-bottom: -3px;
+    padding-left: 10px;
+}
+
+.lista_li li{
+    margin-bottom: 5px;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.lista_li2 li{
+    margin-bottom: 5px;
+    margin-left: 60px;
+    padding-left: 20px;
+}
+
+.tecnologias {
+    margin-left: 25px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.tecnologias h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.conocimientos{
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+}
+
+.conocimientos h3{
+    margin-bottom: 0px;
+}
+
+.tecnologias h3{
+    margin-top: 0px;
+    margin-bottom: 7px;
+    padding-left: 50px;
 }
