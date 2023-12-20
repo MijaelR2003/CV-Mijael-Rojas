@@ -4,8 +4,10 @@ body{
 }
 
 .pagina{
-    margin-left: 255px;
-    margin-right: 250px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 270px;
+    margin-right: 270px;
     border: 2px solid black; 
     border-radius: 30px;
     /*padding: 20px;*/
@@ -16,7 +18,7 @@ body{
 .seccion1{
     display: flex;
     flex-direction: column;
-    margin-right: 490px;
+    width: 350px;
     background-color: rgba(212, 171, 171, 0.452);
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
@@ -60,4 +62,15 @@ body{
 
 .referencia p{
     margin-left: 10px;
+}
+
+/*------------*/
+
+.seccion2{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: rgba(36, 27, 27, 0.452);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
