@@ -322,6 +322,8 @@ body {
     .seccion1{
         width: 91%;
         border-radius: 15px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
         background: rgb(191, 243, 219);
     }
 
@@ -332,6 +334,8 @@ body {
     .seccion2{
         width: 91%;
         border-radius: 15px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
     }
 
     .laptop{
