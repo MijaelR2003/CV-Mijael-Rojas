@@ -136,6 +136,18 @@ body {
     flex-direction: column;
 }
 
+.celular{
+    display: none;
+}
+
+.laptop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+}
+
 .nombre {
     display: flex;
     flex-direction: column;
@@ -154,6 +166,7 @@ body {
     flex-direction: column;
     margin-left: 25px;
     margin-right: 40px;
+    margin-top: 20px;
 }
 
 .informacion h2{
@@ -191,7 +204,7 @@ body {
 }
 
 .habilidades h2{
-    margin-top: 10px;
+    margin-top: -40px;
     margin-bottom: -3px;
     padding-left: 10px;
 }
@@ -242,9 +255,20 @@ body {
     padding-left: 50px;
 }
 
+.footer{
+    display: none;
+}
+
 @media (max-width: 880px){
     body{
         width: 880px;
+    }
+
+    .celular{
+        display: none;
+    }
+    .footer{
+        display: none;
     }
 }
 
@@ -253,6 +277,10 @@ body {
         width: 750px;
         height: auto;
         font-size: 14.5px;
+    }
+
+    .celular{
+        display: none;
     }
 
     .pagina{
@@ -269,5 +297,83 @@ body {
         
     .lugar_nac h3{
         font-size: 16px;
+    }
+    .footer{
+        display: none;
+    }
+}
+
+@media (max-width: 380px){
+    body{
+        width: 350px;
+        height: auto;
+        font-size: 14.5px;
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+    }
+
+    .pagina{
+        width: 95%;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .seccion1{
+        width: 91%;
+        border-radius: 15px;
+        background: rgb(191, 243, 219);
+    }
+
+    .seccion1-2{
+        width: 100%;
+    }
+
+    .seccion2{
+        width: 91%;
+        border-radius: 15px;
+    }
+
+    .laptop{
+        display: none;
+    }
+
+    .celular{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nombre{
+        font-size: 12px;
+    }
+
+    .informacion{
+        margin: 0px;
+        margin-top: -20px;
+    }
+
+    .fecha_nac{
+        margin-top: -10px;
+    }
+
+    .lugar_nac{
+        margin-bottom: -10px;
+    }
+
+    .contacto{
+        display: none;
+    }
+
+    .footer{
+        display: flex;
+        
+    }
+
+    .seccion1_foto{
+        background-color: #fff;
+        border-top-left-radius: 80%;
+        border-bottom-left-radius: 30%;
+        border-bottom-right-radius: 80%;
+        border-top-right-radius: 30%;
     }
 }
